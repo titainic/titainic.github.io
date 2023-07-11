@@ -6,11 +6,12 @@ has_children: true
 permalink: /docs/big-data
 ---
 
-# Spark Hive Flink Iceberg Minio 实现大数据存算分离湖仓一体
+# Spark Hive Flink Iceberg Minio 
+# 实现大数据存算分离湖仓一体
 {: .no_toc }
 ---
 
-### 使用hive建立的表,spark和flink都能基于iceberg和minio进行正常读写
+### hive建立的表,spark和flink都能基于iceberg和minio进行正常读写
 
 
 
