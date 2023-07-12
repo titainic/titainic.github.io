@@ -10,6 +10,9 @@ permalink: /docs/big-data
 # 实现大数据存算分离湖仓一体
 {: .no_toc }
 ---
+### 架构图
+
+![](../../assets/images/bigdata.png)
 
 ### hive建立的表,spark和flink都能基于iceberg和minio进行正常读写
 
