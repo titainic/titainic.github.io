@@ -6,10 +6,10 @@ description: "大数据，人工智能相关技术博客"
 permalink: /
 ---
 
-# 本博客技术是大数据或人工智能相关技术
+# 个人技术沉淀
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+前腾讯大数据架构师，闲的没事喜欢研究一些新技术，略懂人工智能.搬砖11年
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
