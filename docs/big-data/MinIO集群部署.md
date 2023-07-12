@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hadoop整合MinIO
+title: MinIO集群部署
 parent: Big Data
-nav_order: 3
+nav_order: 2
 ---
