@@ -1,24 +1,26 @@
 ---
 layout: default
-title: Big Data
+title: 大数据存算分离湖仓一体
 nav_order: 2
 has_children: true
 permalink: /docs/big-data
 ---
-
-# Spark Hive Flink Iceberg Minio 
-# 实现大数据存算分离湖仓一体
+{: .highlight }
+本章节详细介绍使用如下技术实现大数据存算分离湖仓一体
+## Spark Hive Flink Iceberg Minio 
 {: .no_toc }
 ---
 
-## hive建立的表,spark和flink都能基于iceberg和minio进行正常读写
----
-
+{: .highlight }
+实现目标
 
 <div class="code-example" markdown="1">
-1. hadoop先整合Minio 
-1. hive使用s3a协议，能在hadoop整合minio基础之上进行读写操作 
-1. hive整合iceberg使用s3a协议，能在hadoop整合minio基础之上进行读写操作 
-1. spark读写第三步hive已经建好的表进行读写操作 
-1. flink读写第三步hive已经建好的表进行读写操作 
+1. Hadoop基于s3a协议整合MinIO
+1. Hive使用s3a协议对Hadoop整合MinIO建表读写数据
+1. Hive整合Iceberg基于s3a协议对Hadoop整合MinIO建表读写数据
+1. Spark 整合hive,Iceberg,Hadoop,MinIO读写数据
+1. Flink 整合hive,Iceberg,Hadoop,MinIO读写数据
+1. 性能测试
 </div>
+
+
