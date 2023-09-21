@@ -394,10 +394,6 @@ Map<String, INDArray> map = new HashMap<>();
 
 ---
 
-[代码地址](https://github.com/titainic/hadoop/tree/master/com-dl4j){: .btn .btn-green .mr-4 }
-
----
-
 {: .highlight }
 以下是使用DL4J神经网络框架构建的浅层神经
 
@@ -433,5 +429,7 @@ MultiLayerConfiguration conf = new NeuralNetConfiguration
 
 ![](../../../assets/images/dl/007.jpg)
 
+---
 
+[代码地址](https://github.com/titainic/hadoop/tree/master/com-dl4j){: .btn .btn-green .mr-4 }
 
